@@ -1,7 +1,7 @@
 //= require jquery
 //= require jquery_ujs
-//= require vendor/jquery.jplayer.min
-//= require bootstrap
-//= require editable_comment
-//= require_self
+//= require jquery.atwho
 
+// Atwho.js
+var name_list = [ "peter", "billie"]
+$('textarea').atWho("@",{data:name_list});
